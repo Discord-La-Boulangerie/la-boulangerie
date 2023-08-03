@@ -66,6 +66,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {to: '/bread-chan', label: 'Bread Chan', position: 'left'},
         ],
       },
       footer: {
