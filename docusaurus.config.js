@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'La Boulangerie',
-  tagline: 'le meilleur serveur Discord',
+  tagline: 'le meilleur serveur Discord Francais',
   url: 'https://la-boulangerie.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
