@@ -58,9 +58,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Le Serveur',
+            label: 'Tutorial',
           },
-          {to: '/bread-chan', label: 'Bread Chan', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/Wishrito/la-boulangerie',
             label: 'GitHub',
