@@ -93,8 +93,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'bread-chan',
-                to: '/bread-chan',
+                label: 'Blog',
+                to: '/blog',
               },
               {
                 label: 'GitHub',
