@@ -78,10 +78,6 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
-              {
-                label: 'Bread Chan',
-                to: '/breadchan',
-              },
             ],
           },
           {
