@@ -37,6 +37,9 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
         },
+        breadchan: {
+          showReadingTime: true,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -58,7 +61,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/breadchan', label: 'Bread Chan', position: 'left'},
