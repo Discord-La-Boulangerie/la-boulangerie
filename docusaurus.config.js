@@ -120,12 +120,11 @@ module.exports = {
         },
       ],
     },
-  },
-};
-module.exports = {
   i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr', 'en'],
+  defaultLocale: 'fr',
+  locales: ['en', 'fr'],
   },
+}
 };
+
 module.exports = config
