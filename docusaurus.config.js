@@ -125,10 +125,21 @@ const config = {
       },
     }),
 };
-
-module.exports = config, {
+module.exports = {
+  themeConfig: {
+    navbar: {
+      items: [
+        {
+          type: 'localeDropdown',
+        },
+      ],
+    },
+  },
+};
+module.exports = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'fr'],
   },
 };
+module.exports = config
