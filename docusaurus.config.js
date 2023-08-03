@@ -122,10 +122,21 @@ module.exports = {
     },
   },
 };
-module.exports = {
-  i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr', 'en'],
-  },
-};
+
 module.exports = config
+module.exports = {
+  // ...
+  presets: [
+    [
+      '@docusaurus/preset-classic',
+      {
+        i18n: {
+          defaultLocale: 'fr',
+          locales: ['fr', 'en']
+        },
+        config: config
+        },
+            ],
+          ],
+          // ...
+        }
