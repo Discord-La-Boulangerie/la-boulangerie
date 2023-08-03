@@ -124,6 +124,11 @@ module.exports = {
   defaultLocale: 'en',
   locales: ['en', 'fr'],
   },
-  Config: config
+  Config: {
+  title: 'La Boulangerie',
+  tagline: 'le meilleur serveur Discord Francais',
+  url: 'https://la-boulangerie.vercel.app/',
+  }
+  
   },
 };
