@@ -65,7 +65,6 @@ const config = {
             position: 'right',
           },
           {to: 'blog', label: 'Blog', position: 'left'},
-          {to: 'breadchan', label: 'Bread Chan', position: 'left'},
           {
             href: 'https://github.com/Wishrito/la-boulangerie',
             label: 'GitHub',
