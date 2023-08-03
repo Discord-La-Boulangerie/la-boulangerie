@@ -1,7 +1,7 @@
 ---
 slug: first-blog-post
 title: First Blog Post
-authors: wishrito
+authors: wishrito, bread-chan
 tags: [bienvenue, docusaurus]
 ---
 
