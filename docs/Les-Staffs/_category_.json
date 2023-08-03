@@ -1,0 +1,8 @@
+{
+  "label": "Les staff",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Tous les membres du staff de La Boulangerie"
+  }
+}
