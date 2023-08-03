@@ -4,7 +4,6 @@ sidebar_position: 6
 
 # Wishrito
 
-  <!-- First Card -->
 <div class="card nitro-card">
         <div class="card-header">
           <div
