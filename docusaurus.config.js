@@ -121,10 +121,9 @@ module.exports = {
       ],
     },
   i18n: {
-  defaultLocale: 'fr',
+  defaultLocale: 'en',
   locales: ['en', 'fr'],
   },
-}
+  Config: config
+  },
 };
-
-module.exports = config
