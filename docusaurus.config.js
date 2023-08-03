@@ -40,11 +40,6 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        breadchan: {
-          showReadingTime: true,
-          // Please change this to your repo.
-        },
-
       }),
     ],
   ],
@@ -71,7 +66,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/breadchan', label: 'Bread Chan', position: 'right'},
+          {to: '/breadchan', label: 'Bread Chan', position: 'left'},
         ],
       },
       footer: {
