@@ -25,6 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Serveur Discord',
+    Svg: require('@site/static/img/discord-logo-blue.svg').default,
     description: (
       <iframe src="https://discord.com/widget?id=1130945537181499542&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     ),
