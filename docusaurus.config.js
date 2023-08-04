@@ -120,7 +120,18 @@ module.exports = {
     navbar: {
       items: [
         {
+          type: 'search',
+          position: 'right',
+        },
+        {
           type: 'localeDropdown',
+          position: 'left',
+          dropdownItemsAfter: [
+            {
+              to: 'https://la-boulangerie.vercel.app/help-us-translate',
+              label: 'Help us translate',
+            }
+          ]
         },
       ],
     },
