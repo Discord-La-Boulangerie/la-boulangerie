@@ -63,6 +63,12 @@ const config = {
           {
             type: 'localeDropdown',
             position: 'right',
+            dropdownItemsAfter: [
+              {
+                to: 'https://la-boulangerie.vercel.app/help-us-translate',
+                label: 'Help us translate',
+              },
+            ],
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           {
@@ -126,12 +132,6 @@ module.exports = {
         {
           type: 'localeDropdown',
           position: 'left',
-          dropdownItemsAfter: [
-            {
-              to: 'https://la-boulangerie.vercel.app/help-us-translate',
-              label: 'Help us translate',
-            }
-          ]
         },
       ],
     },
