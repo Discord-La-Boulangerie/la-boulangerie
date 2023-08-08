@@ -1,1 +1,0 @@
-![test](static\img\vidma_20230808_231344.mp4)
