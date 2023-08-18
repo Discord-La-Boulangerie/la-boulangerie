@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      name={`${siteConfig.title}`}
+      name={`${siteConfig.name}`}
       title={`Bienvenue sur le site de ${siteConfig.name}`}
       color="13425505"
       description="le meilleur serveur Discord Francais <head />"

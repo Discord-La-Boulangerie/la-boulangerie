@@ -135,11 +135,28 @@ module.exports = {
         },
       ],
     },
-  i18n: {
-  defaultLocale: 'fr',
-  locales: ['fr', 'en'],
-  },
-}
+    i18n: {
+      defaultLocale: 'fr',
+      locales: ['en', 'fr'],
+      path: 'i18n',
+      localeConfigs: {
+        en: {
+          label: 'English',
+          direction: 'ltr',
+          htmlLang: 'en-US',
+          calendar: 'gregory',
+          path: 'en',
+        },
+        fa: {
+          label: 'Francais',
+          direction: 'ltr',
+          htmlLang: 'fr-FR',
+          calendar: 'gregory',
+          path: 'fr',
+        },
+      },
+    },
+  };
 };
 
 module.exports = config
