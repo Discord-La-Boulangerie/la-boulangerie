@@ -30,8 +30,13 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Bienvenue sur le site de ${siteConfig.title}`}
+      name={`${siteConfig.title}`}
+      title={`Bienvenue sur le site de ${siteConfig.name}`}
+      color="13425505"
       description="le meilleur serveur Discord Francais <head />">
+      thumbnail: {
+       url= "https://opengraph.githubassets.com/f1f3f672e8a97679d458a76b01549a7284035ba493ae80b57992467d0cce2048/Wishrito/Discord-Bread-Chan"
+      }
       <HomepageHeader />
       <main>
         <HomepageFeatures />
