@@ -156,7 +156,7 @@ module.exports = {
         },
       },
     },
-  };
+  },
 };
 
 module.exports = config
