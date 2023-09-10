@@ -135,27 +135,6 @@ module.exports = {
         },
       ],
     },
-    i18n: {
-      defaultLocale: 'fr',
-      locales: ['fr', 'en'],
-      path: '@site/i18n',
-      localeConfigs: {
-        en: {
-          label: 'English',
-          direction: 'ltr',
-          htmlLang: 'en-US',
-          calendar: 'gregory',
-          path: 'en',
-        },
-        fa: {
-          label: 'Francais',
-          direction: 'ltr',
-          htmlLang: 'fr-FR',
-          calendar: 'gregory',
-          path: 'fr',
-        },
-      },
-    },
   },
 };
 
