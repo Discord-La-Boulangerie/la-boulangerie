@@ -137,8 +137,8 @@ module.exports = {
     },
     i18n: {
       defaultLocale: 'fr',
-      locales: ['en', 'fr'],
-      path: 'i18n',
+      locales: ['fr', 'en'],
+      path: '@site/i18n',
       localeConfigs: {
         en: {
           label: 'English',
