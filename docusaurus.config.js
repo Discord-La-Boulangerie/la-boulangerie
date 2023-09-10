@@ -122,20 +122,5 @@ const config = {
     }),
 };
 module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        {
-          type: 'search',
-          position: 'right',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'left',
-        },
-      ],
-    },
-  },
+  config
 };
-
-module.exports = config
